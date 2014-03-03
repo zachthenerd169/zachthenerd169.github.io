@@ -175,7 +175,8 @@ pre {
   background: #fff;
   text-shadow: none;
   overflow: auto;
-  border: solid 1px #f2f2f2;
+  k-border: solid 1px #f2f2f2;
+  border: solid 1px #ebde3d;
 }
 pre code {
   color: #2879d0;
