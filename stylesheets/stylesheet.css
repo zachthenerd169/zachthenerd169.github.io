@@ -264,7 +264,8 @@ form {
  
 #main-content h3:before {
   content: "///";
-  color: #9ddcff;
+  k-color: #9ddcff;
+  color: #ffad29;
   padding-right: 0.3em;
   margin-left: -2em;
 }
