@@ -162,6 +162,7 @@ aside a.button {
   font-weight: normal;
   width: 540px;
   letter-spacing: 0;
+  padding-bottom: 10px;
 }
 
 code, pre {
