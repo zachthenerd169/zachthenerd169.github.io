@@ -156,7 +156,7 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
 }
-aside h1 {
+.projects {
   font-size: 26px;
   color: #9ddcff;
   font-weight: normal;
@@ -469,6 +469,10 @@ footer a:hover {
   }
   aside#sidebar a.button {
     display: none;
+  }
+  .projects{
+    font-size: 0px;
+    display: none; 
   }
   #main-content h1:before,
   #main-content h2:before,
