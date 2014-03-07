@@ -155,6 +155,7 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
+  padding-bottom: 12px;
 }
 .projects {
   font-size: 26px;
