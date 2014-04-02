@@ -1,65 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  	</head>
+  	<body>
+  		<nav class="navbar navbar-default" role="navigation">
+  			<div class="container-fluid">
+  				<div class="navbar-header">
+  					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  						<span class="sr-only">Toggle navigation</span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  					</button>
+  					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th"></span>
+</a>
+  				</div>
+  				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  					<ul class="nav navbar-nav">
+  						<li class="active"><a href="#">Home</a></li>
+  						<li><a href="#">Page 1</a></li>
+  						<li><a href="#">Page 2</a></li>
+  						<li><a href="#">Page 3</a></li>
+  						<li class="dropdown">
+  							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+  							<ul class="dropdown-menu">
+  								<li><a href="#">Thing 1</a></li>
+  								<li><a href="#">Thing 2</a></li>
+  								<li><a href="#">Thing 3</a></li>
+  								<li class="divider"></li>
+  								<li><a href="#">Thing 4</a></li>
+  							</ul>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  		</nav>	
 
-    <title>Zach Williamson</title>
-  </head>
+		<div class="jumbotron">
+		  	<h1>Zach Williamson</h1>
+		  	<p>...</p>
+		  	<p><a class="btn btn-primary btn-lg" role="button">Resume</a></p>
+		</div>
+    <div class="container-fluid">
+    	<div class="row-fluid">
+    		<div class="col-md-2">
+    			<h2>This is a sidebar</h2>
+    		</div>
+    		<div class="col-md-10">
+    			<h1>My Projects</h1>
+    			<div class="row">
+    				<div class="col-sm-6 col-md-4">
+    					<div class="thumbnail">
+    						<img src="images/project1.jpeg" style="max-width: 256px;" alt="...">
+    						<div class="caption">
+    							<h3>Project 1</h3>
+    							<p>...</p>
+    							<p><a href="#" class="btn btn-primary" role="button">Read More</a> <a href="#" class="btn btn-default" role="button">Code</a></p>
+    						</div>
+    					</div>
+    				</div>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Zach Williamson</h1>
-        <h2>Contact: (319)530-2771</h2> <h2>zachary-williamson@uiowa.edu</h2>
-        <a href="https://github.com/zachthenerd169" class="button"><small>Follow me on</small>GitHub</a>
-      </div>
-    </header>
+    				<div class="col-sm-6 col-md-4">
+    					<div class="thumbnail">
+    						<img src="images/project2.jpg" style="max-width: 256px;" alt="...">
+    						<div class="caption">
+    							<h3>Project 2</h3>
+    							<p>...</p>
+    							<p><a href="#" class="btn btn-primary" role="button">Read More</a> <a href="#" class="btn btn-default" role="button">Code</a></p>
+    						</div>
+    					</div>
+    				</div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="AboutMe" class="anchor" href="#AboutMe"><span class="octicon octicon-link"></span></a>About Me.</h3>
+    				<div class="col-sm-6 col-md-4">
+    					<div class="thumbnail">
+    						<img src="images/project3.jpg" style="max-width: 256px;" alt="...">
+    						<div class="caption">
+    							<h3>Project 3</h3>
+    							<p>...</p>
+    							<p><a href="#" class="btn btn-primary" role="button">Read More</a> <a href="#" class="btn btn-default" role="button">Code</a></p>
+    						</div>
+    					</div>
+    				</div>
 
-<p>I am a 19 year old student at the University of Iowa College of Engineering, working towards an electrical engineering degree</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-        </section>
-
-        <aside id="sidebar">
-            <div class=projects>
-                Check out my projects
-                <a href="https://github.com/zachthenerd169/ResizeMaps" class="button">Image Remapping</a>
-            </div>
-            <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+    				<div class="col-sm-6 col-md-4">
+    					<div class="thumbnail">
+    						<img src="images/project4.jpg" style="max-width: 256px;" alt="...">
+    						<div class="caption">
+    							<h3>Project 4</h3>
+    							<p>...</p>
+    							<p><a href="#" class="btn btn-primary" role="button">Read More</a> <a href="#" class="btn btn-default" role="button">Code</a></p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
     </div>
 
-  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
